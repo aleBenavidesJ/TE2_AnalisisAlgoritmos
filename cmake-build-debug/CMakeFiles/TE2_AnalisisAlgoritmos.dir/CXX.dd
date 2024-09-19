@@ -1,0 +1,15 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/main.cpp.obj: dyndep
+
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/BubbleSort.cpp.obj: dyndep
+
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/BSTInsert.cpp.obj: dyndep
+
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/AllSortedLInkedListSearch.cpp.obj: dyndep
+
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/Graphics.cpp.obj: dyndep
+
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/MergeSort.cpp.obj: dyndep
+
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/SelectionSort.cpp.obj: dyndep
+
