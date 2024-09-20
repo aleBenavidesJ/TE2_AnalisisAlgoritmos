@@ -85,4 +85,25 @@ public:
         double averageTime = executionTime([this](int val) { insert(val); }, averageC);
         return {worstTime, bestTime, averageTime};
     }
+
+    std::vector<double> runWorstCase(int n) {
+        std::vector<int> worstC = worstCase(n);
+        BinarySearchTree bst;
+        double worstTime = executionTime([&bst](int val) { bst.insert(val); }, worstC);
+        return {worstTime};
+    }
+
+    std::vector<double> runBestCase(int n) {
+        std::vector<int> bestC = bestCase(n);
+        BinarySearchTree bst;
+        double bestTime = executionTime([&bst](int val) { bst.insert(val); }, bestC);
+        return {bestTime};
+    }
+
+    std::vector<double> runAverageCase(int n) {
+        std::vector<int> averageC = averageCase(n);
+        BinarySearchTree bst;
+        double averageTime = executionTime([&bst](int val) { bst.insert(val); }, averageC);
+        return {averageTime};
+    }
 };

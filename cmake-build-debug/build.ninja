@@ -41,73 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Graphics
-
-
-#############################################
-# Order-only phony target for Graphics
-
-build cmake_object_order_depends_target_Graphics: phony || .
-
-build CMakeFiles/Graphics.dir/main.cpp.obj.ddi: CXX_SCAN__Graphics_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/main.cpp || cmake_object_order_depends_target_Graphics
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\Graphics.dir\main.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Graphics.dir\main.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJ_FILE = CMakeFiles\Graphics.dir\main.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Graphics.dir\main.cpp.obj.ddi.i
-
-build CMakeFiles/Graphics.dir/main.cpp.obj: CXX_COMPILER__Graphics_scanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/main.cpp | CMakeFiles/Graphics.dir/main.cpp.obj.modmap || cmake_object_order_depends_target_Graphics CMakeFiles/Graphics.dir/CXX.dd
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\Graphics.dir\main.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Graphics.dir\main.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJECT_DIR = CMakeFiles\Graphics.dir
-  OBJECT_FILE_DIR = CMakeFiles\Graphics.dir
-  dyndep = CMakeFiles/Graphics.dir/CXX.dd
-
-build CMakeFiles/Graphics.dir/Graphics.cpp.obj.ddi: CXX_SCAN__Graphics_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/Graphics.cpp || cmake_object_order_depends_target_Graphics
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\Graphics.dir\Graphics.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Graphics.dir\Graphics.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJ_FILE = CMakeFiles\Graphics.dir\Graphics.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Graphics.dir\Graphics.cpp.obj.ddi.i
-
-build CMakeFiles/Graphics.dir/Graphics.cpp.obj: CXX_COMPILER__Graphics_scanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/Graphics.cpp | CMakeFiles/Graphics.dir/Graphics.cpp.obj.modmap || cmake_object_order_depends_target_Graphics CMakeFiles/Graphics.dir/CXX.dd
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\Graphics.dir\Graphics.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Graphics.dir\Graphics.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJECT_DIR = CMakeFiles\Graphics.dir
-  OBJECT_FILE_DIR = CMakeFiles\Graphics.dir
-  dyndep = CMakeFiles/Graphics.dir/CXX.dd
-
-build CMakeFiles/Graphics.dir/CXX.dd | C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/cmake-build-debug/CMakeFiles/Graphics.dir/CXXModules.json CMakeFiles/Graphics.dir/main.cpp.obj.modmap CMakeFiles/Graphics.dir/Graphics.cpp.obj.modmap: CXX_DYNDEP__Graphics_Debug CMakeFiles/Graphics.dir/main.cpp.obj.ddi CMakeFiles/Graphics.dir/Graphics.cpp.obj.ddi | C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/cmake-build-debug/CMakeFiles/Graphics.dir/CXXDependInfo.json
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Graphics
-
-
-#############################################
-# Link the executable Graphics.exe
-
-build Graphics.exe: CXX_EXECUTABLE_LINKER__Graphics_Debug CMakeFiles/Graphics.dir/main.cpp.obj CMakeFiles/Graphics.dir/Graphics.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lgtkmm-3.0  -latkmm-1.6  -lgdkmm-3.0  -lgiomm-2.4  -lgtk-3  -lgdk-3  -lz  -lgdi32  -limm32  -lshell32  -lole32  -luuid  -lwinmm  -ldwmapi  -lsetupapi  -lcfgmgr32  -lhid  -lwinspool  -lcomctl32  -lcomdlg32  -lpangowin32-1.0  -latk-1.0  -lcairo-gobject  -lgio-2.0  -lpangomm-1.4  -lglibmm-2.4  -lcairomm-1.0  -lsigc-2.0  -lpangocairo-1.0  -lpango-1.0  -lharfbuzz  -lcairo  -lgdk_pixbuf-2.0  -lgobject-2.0  -lglib-2.0  -lintl  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Graphics.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Graphics.exe
-  TARGET_IMPLIB = libGraphics.dll.a
-  TARGET_PDB = Graphics.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target TE2_AnalisisAlgoritmos
 
 
@@ -116,140 +49,61 @@ build Graphics.exe: CXX_EXECUTABLE_LINKER__Graphics_Debug CMakeFiles/Graphics.di
 
 build cmake_object_order_depends_target_TE2_AnalisisAlgoritmos: phony || .
 
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/main.cpp.obj.ddi: CXX_SCAN__TE2_AnalisisAlgoritmos_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/main.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\main.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\main.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJ_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\main.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\main.cpp.obj.ddi.i
-
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/main.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_scanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/main.cpp | CMakeFiles/TE2_AnalisisAlgoritmos.dir/main.cpp.obj.modmap || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/main.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_unscanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/main.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
   DEFINES = -DLIBDEFLATE_DLL
   DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\main.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\main.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
   OBJECT_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
   OBJECT_FILE_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
-  dyndep = CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
 
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/BubbleSort.cpp.obj.ddi: CXX_SCAN__TE2_AnalisisAlgoritmos_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/BubbleSort.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BubbleSort.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BubbleSort.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJ_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BubbleSort.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BubbleSort.cpp.obj.ddi.i
-
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/BubbleSort.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_scanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/BubbleSort.cpp | CMakeFiles/TE2_AnalisisAlgoritmos.dir/BubbleSort.cpp.obj.modmap || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/BubbleSort.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_unscanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/BubbleSort.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
   DEFINES = -DLIBDEFLATE_DLL
   DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BubbleSort.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BubbleSort.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
   OBJECT_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
   OBJECT_FILE_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
-  dyndep = CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
 
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/BSTInsert.cpp.obj.ddi: CXX_SCAN__TE2_AnalisisAlgoritmos_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/BSTInsert.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BSTInsert.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BSTInsert.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJ_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BSTInsert.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BSTInsert.cpp.obj.ddi.i
-
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/BSTInsert.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_scanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/BSTInsert.cpp | CMakeFiles/TE2_AnalisisAlgoritmos.dir/BSTInsert.cpp.obj.modmap || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BSTInsert.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BSTInsert.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJECT_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
-  dyndep = CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
-
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/AllSortedLInkedListSearch.cpp.obj.ddi: CXX_SCAN__TE2_AnalisisAlgoritmos_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/AllSortedLInkedListSearch.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\AllSortedLInkedListSearch.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\AllSortedLInkedListSearch.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJ_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\AllSortedLInkedListSearch.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\AllSortedLInkedListSearch.cpp.obj.ddi.i
-
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/AllSortedLInkedListSearch.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_scanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/AllSortedLInkedListSearch.cpp | CMakeFiles/TE2_AnalisisAlgoritmos.dir/AllSortedLInkedListSearch.cpp.obj.modmap || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\AllSortedLInkedListSearch.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\AllSortedLInkedListSearch.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJECT_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
-  dyndep = CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
-
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/Graphics.cpp.obj.ddi: CXX_SCAN__TE2_AnalisisAlgoritmos_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/Graphics.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\Graphics.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\Graphics.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJ_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\Graphics.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\Graphics.cpp.obj.ddi.i
-
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/Graphics.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_scanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/Graphics.cpp | CMakeFiles/TE2_AnalisisAlgoritmos.dir/Graphics.cpp.obj.modmap || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\Graphics.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\Graphics.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJECT_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
-  dyndep = CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
-
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/MergeSort.cpp.obj.ddi: CXX_SCAN__TE2_AnalisisAlgoritmos_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/MergeSort.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\MergeSort.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\MergeSort.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJ_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\MergeSort.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\MergeSort.cpp.obj.ddi.i
-
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/MergeSort.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_scanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/MergeSort.cpp | CMakeFiles/TE2_AnalisisAlgoritmos.dir/MergeSort.cpp.obj.modmap || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\MergeSort.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\MergeSort.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJECT_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
-  dyndep = CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
-
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/SelectionSort.cpp.obj.ddi: CXX_SCAN__TE2_AnalisisAlgoritmos_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/SelectionSort.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
-  DEFINES = -DLIBDEFLATE_DLL
-  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\SelectionSort.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\SelectionSort.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
-  OBJ_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\SelectionSort.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\SelectionSort.cpp.obj.ddi.i
-
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/SelectionSort.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_scanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/SelectionSort.cpp | CMakeFiles/TE2_AnalisisAlgoritmos.dir/SelectionSort.cpp.obj.modmap || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/SelectionSort.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_unscanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/SelectionSort.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
   DEFINES = -DLIBDEFLATE_DLL
   DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\SelectionSort.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\SelectionSort.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
   OBJECT_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
   OBJECT_FILE_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
-  dyndep = CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd
 
-build CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd | C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/cmake-build-debug/CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXXModules.json CMakeFiles/TE2_AnalisisAlgoritmos.dir/main.cpp.obj.modmap CMakeFiles/TE2_AnalisisAlgoritmos.dir/BubbleSort.cpp.obj.modmap CMakeFiles/TE2_AnalisisAlgoritmos.dir/BSTInsert.cpp.obj.modmap CMakeFiles/TE2_AnalisisAlgoritmos.dir/AllSortedLInkedListSearch.cpp.obj.modmap CMakeFiles/TE2_AnalisisAlgoritmos.dir/Graphics.cpp.obj.modmap CMakeFiles/TE2_AnalisisAlgoritmos.dir/MergeSort.cpp.obj.modmap CMakeFiles/TE2_AnalisisAlgoritmos.dir/SelectionSort.cpp.obj.modmap: CXX_DYNDEP__TE2_AnalisisAlgoritmos_Debug CMakeFiles/TE2_AnalisisAlgoritmos.dir/main.cpp.obj.ddi CMakeFiles/TE2_AnalisisAlgoritmos.dir/BubbleSort.cpp.obj.ddi CMakeFiles/TE2_AnalisisAlgoritmos.dir/BSTInsert.cpp.obj.ddi CMakeFiles/TE2_AnalisisAlgoritmos.dir/AllSortedLInkedListSearch.cpp.obj.ddi CMakeFiles/TE2_AnalisisAlgoritmos.dir/Graphics.cpp.obj.ddi CMakeFiles/TE2_AnalisisAlgoritmos.dir/MergeSort.cpp.obj.ddi CMakeFiles/TE2_AnalisisAlgoritmos.dir/SelectionSort.cpp.obj.ddi | C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/cmake-build-debug/CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXXDependInfo.json
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/MergeSort.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_unscanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/MergeSort.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
+  DEFINES = -DLIBDEFLATE_DLL
+  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\MergeSort.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
+  OBJECT_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
+  OBJECT_FILE_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
+
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/AllSortedLInkedListSearch.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_unscanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/AllSortedLInkedListSearch.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
+  DEFINES = -DLIBDEFLATE_DLL
+  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\AllSortedLInkedListSearch.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
+  OBJECT_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
+  OBJECT_FILE_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
+
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/BSTInsert.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_unscanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/BSTInsert.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
+  DEFINES = -DLIBDEFLATE_DLL
+  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\BSTInsert.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
+  OBJECT_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
+  OBJECT_FILE_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
+
+build CMakeFiles/TE2_AnalisisAlgoritmos.dir/Graphics.cpp.obj: CXX_COMPILER__TE2_AnalisisAlgoritmos_unscanned_Debug C$:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/Graphics.cpp || cmake_object_order_depends_target_TE2_AnalisisAlgoritmos
+  DEFINES = -DLIBDEFLATE_DLL
+  DEP_FILE = CMakeFiles\TE2_AnalisisAlgoritmos.dir\Graphics.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/ucrt64/bin/../include/gtkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gtkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/atkmm-1.6 -IC:/msys64/ucrt64/bin/../lib/atkmm-1.6/include -IC:/msys64/ucrt64/bin/../include/gdkmm-3.0 -IC:/msys64/ucrt64/bin/../lib/gdkmm-3.0/include -IC:/msys64/ucrt64/bin/../include/giomm-2.4 -IC:/msys64/ucrt64/bin/../lib/giomm-2.4/include -IC:/msys64/ucrt64/bin/../include/gtk-3.0 -IC:/msys64/ucrt64/bin/../include/cairo -IC:/msys64/ucrt64/bin/../include/atk-1.0 -IC:/msys64/ucrt64/bin/../include/pangomm-1.4 -IC:/msys64/ucrt64/bin/../lib/pangomm-1.4/include -IC:/msys64/ucrt64/bin/../include/glibmm-2.4 -IC:/msys64/ucrt64/bin/../lib/glibmm-2.4/include -IC:/msys64/ucrt64/bin/../include/cairomm-1.0 -IC:/msys64/ucrt64/bin/../lib/cairomm-1.0/include -IC:/msys64/ucrt64/bin/../include/sigc++-2.0 -IC:/msys64/ucrt64/bin/../lib/sigc++-2.0/include -IC:/msys64/ucrt64/bin/../include/pango-1.0 -IC:/msys64/ucrt64/bin/../include/pixman-1 -IC:/msys64/ucrt64/bin/../include/fribidi -IC:/msys64/ucrt64/bin/../include/harfbuzz -IC:/msys64/ucrt64/bin/../include/freetype2 -IC:/msys64/ucrt64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/glib-2.0 -IC:/msys64/ucrt64/bin/../lib/glib-2.0/include
+  OBJECT_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
+  OBJECT_FILE_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
 
 
 # =============================================================================
@@ -259,9 +113,9 @@ build CMakeFiles/TE2_AnalisisAlgoritmos.dir/CXX.dd | C$:/Users/benav/CLionProjec
 #############################################
 # Link the executable TE2_AnalisisAlgoritmos.exe
 
-build TE2_AnalisisAlgoritmos.exe: CXX_EXECUTABLE_LINKER__TE2_AnalisisAlgoritmos_Debug CMakeFiles/TE2_AnalisisAlgoritmos.dir/main.cpp.obj CMakeFiles/TE2_AnalisisAlgoritmos.dir/BubbleSort.cpp.obj CMakeFiles/TE2_AnalisisAlgoritmos.dir/BSTInsert.cpp.obj CMakeFiles/TE2_AnalisisAlgoritmos.dir/AllSortedLInkedListSearch.cpp.obj CMakeFiles/TE2_AnalisisAlgoritmos.dir/Graphics.cpp.obj CMakeFiles/TE2_AnalisisAlgoritmos.dir/MergeSort.cpp.obj CMakeFiles/TE2_AnalisisAlgoritmos.dir/SelectionSort.cpp.obj
+build TE2_AnalisisAlgoritmos.exe: CXX_EXECUTABLE_LINKER__TE2_AnalisisAlgoritmos_Debug CMakeFiles/TE2_AnalisisAlgoritmos.dir/main.cpp.obj CMakeFiles/TE2_AnalisisAlgoritmos.dir/BubbleSort.cpp.obj CMakeFiles/TE2_AnalisisAlgoritmos.dir/SelectionSort.cpp.obj CMakeFiles/TE2_AnalisisAlgoritmos.dir/MergeSort.cpp.obj CMakeFiles/TE2_AnalisisAlgoritmos.dir/AllSortedLInkedListSearch.cpp.obj CMakeFiles/TE2_AnalisisAlgoritmos.dir/BSTInsert.cpp.obj CMakeFiles/TE2_AnalisisAlgoritmos.dir/Graphics.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = -lgtkmm-3.0  -latkmm-1.6  -lgdkmm-3.0  -lgiomm-2.4  -lgtk-3  -lgdk-3  -lz  -lgdi32  -limm32  -lshell32  -lole32  -luuid  -lwinmm  -ldwmapi  -lsetupapi  -lcfgmgr32  -lhid  -lwinspool  -lcomctl32  -lcomdlg32  -lpangowin32-1.0  -latk-1.0  -lcairo-gobject  -lgio-2.0  -lpangomm-1.4  -lglibmm-2.4  -lcairomm-1.0  -lsigc-2.0  -lpangocairo-1.0  -lpango-1.0  -lharfbuzz  -lcairo  -lgdk_pixbuf-2.0  -lgobject-2.0  -lglib-2.0  -lintl  -lsigc-2.0  -lglibmm-2.4  -lcairomm-1.0  -lpangocairo-1.0  -lpango-1.0  -lharfbuzz  -lcairo  -lgdk_pixbuf-2.0  -lgobject-2.0  -lglib-2.0  -lintl  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TE2_AnalisisAlgoritmos.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -295,8 +149,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Graphics: phony Graphics.exe
-
 build TE2_AnalisisAlgoritmos: phony TE2_AnalisisAlgoritmos.exe
 
 # =============================================================================
@@ -307,7 +159,7 @@ build TE2_AnalisisAlgoritmos: phony TE2_AnalisisAlgoritmos.exe
 #############################################
 # Folder: C:/Users/benav/CLionProjects/TE2-AnalisisAlgoritmos/cmake-build-debug
 
-build all: phony Graphics.exe TE2_AnalisisAlgoritmos.exe
+build all: phony TE2_AnalisisAlgoritmos.exe
 
 # =============================================================================
 # Built-in targets

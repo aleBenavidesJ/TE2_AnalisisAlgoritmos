@@ -60,4 +60,22 @@ public:
         double averageTime = executionTime([this](std::vector<int>& data) { selectionSort(data); }, averageC);
         return { worstTime, bestTime, averageTime };
     }
+
+    std::vector<double> runWorstCase(int n) {
+        std::vector<int> worstC = worstCase(n);
+        double worstTime = executionTime([this](std::vector<int>& data) { selectionSort(data); }, worstC);
+        return { worstTime };
+    }
+
+    std::vector<double> runBestCase(int n) {
+        std::vector<int> bestC = bestCase(n);
+        double bestTime = executionTime([this](std::vector<int>& data) { selectionSort(data); }, bestC);
+        return { bestTime };
+    }
+
+    std::vector<double> runAverageCase(int n) {
+        std::vector<int> averageC = averageCase(n);
+        double averageTime = executionTime([this](std::vector<int>& data) { selectionSort(data); }, averageC);
+        return { averageTime };
+    }
 };

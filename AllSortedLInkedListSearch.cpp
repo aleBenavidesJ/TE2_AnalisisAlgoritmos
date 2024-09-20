@@ -81,4 +81,25 @@ public:
         double averageTime = executionTime([this](int val) { search(val); }, averageC, rand() % 1000);
         return {worstTime, bestTime, averageTime};
     }
+
+    std::vector<double> runWorstCase(int n) {
+        std::vector<int> worstC = worstCase(n);
+        AllSortedLinkedListSearch list;
+        double worstTime = executionTime([&list](int val) { list.search(val); }, worstC, n);
+        return {worstTime};
+    }
+
+    std::vector<double> runBestCase(int n) {
+        std::vector<int> bestC = bestCase(n);
+        AllSortedLinkedListSearch list;
+        double bestTime = executionTime([&list](int val) { list.search(val); }, bestC, 1);
+        return {bestTime};
+    }
+
+    std::vector<double> runAverageCase(int n) {
+        std::vector<int> averageC = averageCase(n);
+        AllSortedLinkedListSearch list;
+        double averageTime = executionTime([&list](int val) { list.search(val); }, averageC, rand() % 1000);
+        return {averageTime};
+    }
 };
